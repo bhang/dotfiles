@@ -3,6 +3,10 @@ tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
+# Java :-(
+# Needed by osquery
+cask 'java'
+
 # Tools
 brew 'ag'
 brew 'ansible'
@@ -13,7 +17,7 @@ brew 'findutils', args: ['with-default-names']
 brew 'git'
 brew 'go'
 brew 'httpie'
-brew 'imagick'
+brew 'imagemagick'
 brew 'kubectl'
 brew 'moreutils'
 brew 'node'
