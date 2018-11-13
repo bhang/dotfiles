@@ -14,35 +14,7 @@ The goal is to reduce the things in this section over time by moving them to the
 
 # Install script / Homebrew
 
-* moreutils
-* coreutils
-* findutils with-default-names
-* ripgrep
-* bash
-* openssl
-* tmux
-* python
-* go
-* node
-* osquery
-* git
-* tree
-* httpie
-* curl
-* wget
-* kubectl
-* ag
-* terraform
-* ansible
-
-**Cask:**
-* docker
-* minikube
-* emacs
-* karabiner-elements
-* visual-studio-code
-
-
+Run install.sh after cloning the repo ¯\_(ツ)_/¯
 
 # Additional apps
 
