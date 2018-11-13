@@ -1,6 +1,6 @@
 A very basic dotfiles setup, along with an install script and some os x settings. 
 
-# Pre-requisites
+# Prerequisites
 
 The goal is to reduce the things in this section over time by moving them to the install script. But for now,
 
@@ -9,8 +9,8 @@ The goal is to reduce the things in this section over time by moving them to the
 * Dropbox
 * Keybase
 * Xcode
-* Xcode CLT (xcode-select --install)
-* Agree to xcode license (sudo xcodebuild -license accept)
+* Xcode CLT (`xcode-select --install`)
+* Agree to xcode license (`sudo xcodebuild -license accept`)
 
 # Install script / Homebrew
 
@@ -35,7 +35,7 @@ The goal is to reduce the things in this section over time by moving them to the
 * terraform
 * ansible
 
-*Cask:*
+**Cask:**
 * docker
 * minikube
 * emacs
