@@ -14,10 +14,12 @@ brew 'bash'
 brew 'coreutils'
 brew 'curl'
 brew 'findutils', args: ['with-default-names']
+brew 'gettext', link: true
 brew 'git'
 brew 'go'
 brew 'httpie'
 brew 'imagemagick'
+brew 'jq'
 brew 'kubectl'
 brew 'moreutils'
 brew 'node'
