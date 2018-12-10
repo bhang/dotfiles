@@ -27,3 +27,7 @@ Run install.sh after cloning the repo ¯\_(ツ)_/¯
 * Spectacle
 * Slack
 
+# Additional tools installed through other means
+
+* gcloud - use interactive installer from https://cloud.google.com/sdk/docs/downloads-interactive#mac
+
