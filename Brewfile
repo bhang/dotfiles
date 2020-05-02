@@ -1,12 +1,12 @@
 # Taps
-tap 'caskroom/cask'
-tap 'caskroom/versions'
+tap 'homebrew/cask'
+tap 'homebrew/cask-versions'
 tap 'garethr/kubeval'
 tap 'homebrew/bundle'
 
 # Java :-(
 # Needed by osquery
-cask 'java'
+#cask 'java'
 
 # Tools
 brew 'ag'
@@ -16,34 +16,32 @@ brew 'binutils'
 brew 'coreutils'
 brew 'curl'
 brew 'diffutils'
-brew 'findutils', args: ['with-default-names']
+brew 'findutils'
 brew 'gawk'
 brew 'gettext', link: true
 brew 'git'
-brew 'gnu-indent', args: ['with-default-names']
+brew 'gnu-indent'
 brew 'gnu-sed'
-brew 'gnu-tar', args: ['with-default-names']
-brew 'gnu-which', args: ['with-default-names']
-brew 'gnutls', args: ['with-default-names']
+brew 'gnu-tar'
+brew 'gnu-which'
+brew 'gnutls'
 brew 'go'
-brew 'grep', args: ['with-default-names']
+brew 'grep'
 brew 'gzip'
 brew 'httpie'
 brew 'imagemagick'
 brew 'jq'
 brew 'kubectl'
 brew 'kubeval'
-brew 'moreutils'
-brew 'node'
 brew 'openssl'
 brew 'osquery'
+brew 'pinentry-mac'
 brew 'pkg-config'
 brew 'python'
 brew 'ripgrep'
 brew 'shellcheck'
 brew 'stern'
-brew 'stow'
-brew 'terraform'
+brew 'tfenv'
 brew 'tmux'
 brew 'tree'
 brew 'watch'
@@ -52,11 +50,9 @@ brew 'tmux-xpanes'
 
 # Apps
 cask 'docker'
-cask 'minikube'
 cask 'emacs'
 cask 'karabiner-elements'
 cask 'visual-studio-code'
-cask 'virtualbox'
 
 # Quicklook
 cask 'qlmarkdown'
