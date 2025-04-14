@@ -1,33 +1,5 @@
-A very basic dotfiles setup, along with an install script and some os x settings. 
+New/revamped dotfiles setup as of April 2025.
 
-# Prerequisites
-
-The goal is to reduce the things in this section over time by moving them to the install script. But for now,
-
-* Brave
-* 1Password
-* Dropbox
-* Keybase
-* Xcode
-* Xcode CLT (`xcode-select --install`)
-* Agree to xcode license (`sudo xcodebuild -license accept`)
-
-# Install script / Homebrew
-
-Run install.sh after cloning the repo ¯\_(ツ)_/¯
-
-# Additional apps
-
-* Alfred 3 (license/powerpack reqd)
-* f.lux
-* iStat Menus  (license reqd)
-* nvAlt
-* Power JSON Editor (license reqd)
-* Scroll reverser
-* Spectacle
-* Slack
-
-# Additional tools installed through other means
-
-* gcloud - use interactive installer from https://cloud.google.com/sdk/docs/downloads-interactive#mac
-
+- Use [Stow](https://www.gnu.org/software/stow/manual/stow.html)
+- Start with basics
+- Slowly expand
